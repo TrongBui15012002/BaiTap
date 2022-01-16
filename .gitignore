@@ -36,3 +36,5 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+src/k14dhpm2/oo/Circle.java
+src/k14dhpm2/oo/Circle.java
