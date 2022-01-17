@@ -5,12 +5,12 @@ public class Student {
     double age;
     String mssv;
     String lop;
-    
-    void student(String n, double a, String m, String l){
-        name = n;
-        age = a;
-        mssv = m;
-        lop = l;
+
+    public Student(String name, double age, String mssv, String lop) {
+        this.name = name;
+        this.age = age;
+        this.mssv = mssv;
+        this.lop = lop;
     }
 
     void hoc(){
