@@ -1,4 +1,4 @@
-package k14dhpm2.buoi2;
+package tuan1;
 
 public class Square {
     String color;

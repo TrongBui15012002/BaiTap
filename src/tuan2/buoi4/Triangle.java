@@ -1,9 +1,9 @@
-package k14dhpm2.buoi4;
+package tuan2.buoi4;
 
-public class Square {
+public class Triangle {
     String fileSound;
 
-    public Square(String fileSound){
+    public Triangle(String fileSound){
         this.fileSound = fileSound;
     }
 
