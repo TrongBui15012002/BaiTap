@@ -9,7 +9,7 @@ public class SinhVienTestDrive {
         sv3.setHoVaTen();
         sv3.setDiemTH();
         sv3.setDiemLT();
-        System.out.printf("%-30s %-30s%6s %6s %6s \n", "MSSV", "Hovaten", "ĐTH", "ĐLT", "ĐTB");
+        System.out.printf("%-30s %-30s%5.2s %5.2s %5.2s \n", "MSSV", "Hovaten", "ĐTH", "ĐLT", "ĐTB");
         System.out.printf("%-30s %-30s %5.2f %5.2f %5.2f \n", sv1.getMssv(), sv1.getHoVaTen(), sv1.getDiemTH(), sv1.getDiemLT(), sv1.tinhDiemTB());
         System.out.printf("%-30s %-30s %5.2f %5.2f %5.2f \n", sv2.getMssv(), sv2.getHoVaTen(), sv2.getDiemTH(), sv2.getDiemLT(), sv2.tinhDiemTB());
         System.out.printf("%-30s %-30s %5.2f %5.2f %5.2f \n", sv3.getMssv(), sv3.getHoVaTen(), sv3.getDiemTH(), sv3.getDiemLT(), sv3.tinhDiemTB());
