@@ -1,6 +1,6 @@
-package tuan1;
+package tuan5.buoi9;
 
-public class Animal {
+public abstract class Animal {
     private String picture;
     private String food;
     private int hunger;
@@ -23,13 +23,8 @@ public class Animal {
         this.hunger = hunger;
     }
     
-    protected  void makeNoise(){
-        System.out.print("kêu ...");
-
-    }
-    protected void eat(){
-        System.out.println("Ăn ...");
-    }
+    protected abstract void makeNoise();
+    protected abstract void eat();
     protected void sleep(){
         System.out.println("- Sleeping...");
 
@@ -38,5 +33,6 @@ public class Animal {
         System.out.println("Roaming...");
 
     }
+   
     
 }

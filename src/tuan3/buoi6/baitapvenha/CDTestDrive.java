@@ -25,7 +25,7 @@ public class CDTestDrive {
                     System.out.println("----Nhập CD vào danh sách----");
                     System.out.print("- Nhập số CD muốn thêm: ");
                     a = nhap.nextInt();
-                    if(a > 100){
+                    if(a > 100){ 
                         System.out.println("- Dung lượng bộ nhớ k đủ.");
                     }else{
                         for(int i = 0;i < a;i++){

@@ -1,4 +1,4 @@
-package tuan1;
+package tuan5.buoi9;
 
 public class Lion extends Feline{
     @Override//ghi đè
